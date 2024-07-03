@@ -1,0 +1,11 @@
+Step-1 install jenkins  deploy infra usinfg jenkins file 
+
+step-2 : then use cmd "terraform Plan" amd "terraform apply" its Create EKS and VPC for Production Environment
+     (make sude update kubeconfig using this cmd "aws eks update-kubeconfig --region region-code --name my-cluster")
+
+step-3 : then  install Kubectl using Script 
+
+step-4 : use cmd "Kubectl apply -f " all Yaml File for Deploy Service
+
+step-5 : check all Processes work or not Properly 
+        (using this cmd "kubectl get all -A") 
